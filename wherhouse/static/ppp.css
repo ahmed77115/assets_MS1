@@ -1,0 +1,16 @@
+
+
+
+.ppp{
+    overflow: auto !important;
+}
+
+.table-responsive {
+    display: table-cell;
+    width: 100%;
+}
+
+.table-responsive+.glyphicon.glyphicon-plus {
+    display: table-cell;
+    padding-left: 10px;
+}
