@@ -167,6 +167,7 @@ class MovementAssets(BaseModel):
             type_movement=MovementType.objects.filter(type='7').first(),
             quantity=self.count_quantity-self.quantity,
             status='',
+            university=self.company,
         )
         elif  self.count_quantity and self.quantity and self.count_quantity-self.quantity <0:
             Movement.objects.create(
@@ -183,6 +184,7 @@ class MovementAssets(BaseModel):
             type_movement=MovementType.objects.filter(type='7').first(),
             quantity=abs(self.count_quantity-self.quantity),
             status='',
+            university=self.company,
         )
         elif  self.count_quantity and self.quantity and self.count_quantity-self.quantity ==0:
             self.count_quantity=None
