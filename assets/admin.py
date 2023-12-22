@@ -1,5 +1,4 @@
 from os import name
-from tkinter.tix import TEXT
 from django.contrib import admin
 from django.contrib.admin import AdminSite
 from.models import Asset,AssetCategory,Location, MovementAssets
