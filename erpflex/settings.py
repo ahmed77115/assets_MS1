@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     #'admin_interface',
-    #'colorfield',
+    #'colorjjjjfield',
     'simpleui',
     'dal',
     'dal_select2',
